@@ -33,7 +33,7 @@ function checkAnswer(lastUserAnswer) {
 
     else {
         playSound("wrong");
-        $("h1").text("Game Over, Press Any Key to Restart");
+        $("h1").text("Game Over, Please Refresh");
         $("body").addClass("game-over");
         setTimeout(function () {
             $("body").removeClass("game-over");
