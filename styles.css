@@ -12,10 +12,12 @@ body {
 
 h2 {
   font-family: 'Press Start 2P', cursive;
-  margin: 5%;
   line-height: 40px;
   color: #FEF2BF;
   font-size: 1rem;
+  margin:auto;
+  max-width: 65%;
+  padding-bottom: 30px;
 }
 
 .container {
